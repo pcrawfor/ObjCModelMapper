@@ -111,7 +111,7 @@ In this case the data set would look like:
         }
     ]
 
-* The id field in the todo json data will be mapped to the todoId field on the core data model objects
+_The id field in the todo json data will be mapped to the todoId field on the core data model objects_
 
 # Credit
 
