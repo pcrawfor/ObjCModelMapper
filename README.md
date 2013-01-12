@@ -57,15 +57,15 @@ If you have a core data model named Todo:
 
 eg. Sample interface:
 
-#import "Todo.h"
+    #import "Todo.h"
 
-@interface Todo : NSManagedObject
+    @interface Todo : NSManagedObject
 
-@property (strong, nonatomic) NSNumber  * todoId;
-@property (strong, nonatomic) NSString  * title;
-@property (strong, nonatomic) NSString  * desc;
+    @property (strong, nonatomic) NSNumber  * todoId;
+    @property (strong, nonatomic) NSString  * title;
+    @property (strong, nonatomic) NSString  * desc;
 
-@end
+    @end
 
 You can load the todos from an API available at /todos.json by doing:
 
